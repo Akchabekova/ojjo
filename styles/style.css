@@ -17,3 +17,82 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
+.header{
+    padding: 15px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu_link{
+    margin: 0 0 0 10px ;
+
+}
+.menu_login_signUp{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+.menu_logo{
+
+}
+.menu_action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 -5px;
+
+}
+.menu_search{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+
+}
+.menu_icons{
+    margin: 0 0 0 10px;
+}
+.login_img{
+    margin: 0 10px 0 20px;
+}
+.hero{
+    height: 600px;
+}
+.hero_img{
+    background: url("../images/hero.png") no-repeat center/cover;
+    height: 100%;
+    position: relative;
+}
+.hero_title{
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    line-height: 71px;
+    position: absolute;
+    bottom: 170px;
+    left: 450px;
+}
+.hero_subtitle{
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 35px;
+    position: absolute;
+    bottom: 80px;
+    left: 506px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+}
