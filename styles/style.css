@@ -294,5 +294,137 @@ body{
     transform: scale(1.1);
     opacity: inherit;
 }
+.description_btn{
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 15px 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 0.4s ease-in-out, color 0.4s ease-in-out;
+    margin: 30px 420px;
+}
+.description_btn:hover{
+    box-shadow: 0 0 40px 40px #2c7be1 inset;
 
+}
+.social{
+    padding: 60px 0;
+}
+.social_link{
+    display: block;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.social_subtitle{
+    font-family: Noto Serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+}
+.feedback{
+    padding: 70px 0;
+    background-color: #1c1c1c;
+}
+.feedback_title{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 
+}
+.feedback_subtitle {
+    font-family: Noto Serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.col-5{
+    width: 41.666666%;
+    padding: 0 15px;
+}
+.col-7{
+    width: 58.3333%;
+    padding: 0 15px;
+}
+.feedback_list{
+    display: flex;
+    align-items: center;
+
+}
+.feedback_desc{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.feedback_check{
+    margin: 15px 20px;
+}
+.feedback_border_outside{
+    border: 1px solid #FFFFFF;
+    padding: 14px 15px;
+    margin: 15px 0;
+}
+.feedback_input{
+    background-color: white;
+    padding: 15px 45px 14px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 0.5);
+    border: 1px solid #D6D6D6;
+    margin-right: 35px;
+
+}
+.feedback_input_box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 87px 14px 20px;
+
+}
+.feedback_box_desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;
+    padding: 16px 56px;
+    cursor: pointer;
+
+}
+.footer{
+    padding: 70px 0;
+}
+.footer_title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+}
