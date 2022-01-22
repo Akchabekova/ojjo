@@ -459,3 +459,15 @@ body{
 .footer_email{
     margin: 10px 10px;
 }
+
+.footer_social_desc{
+    margin-bottom: 15px;
+
+}
+.social_item{
+    margin-right: 22px;
+
+}
+.social_item:hover{
+
+}
