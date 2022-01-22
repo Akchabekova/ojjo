@@ -459,7 +459,7 @@ body{
     margin-bottom: 15px;
  }
 .footer_pay_desc {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
     color: #333333;
     margin-bottom: 30px;
@@ -469,6 +469,9 @@ body{
     align-items: center;
 }
 
+.pay_mastercard{
+    margin-left: 10px;
+}
 
 .footer_tel{
     margin: 10px 10px;
@@ -483,7 +486,7 @@ body{
 
 }
 .footer_social_desc{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
     color: #333333;
     margin-bottom: 30px;
@@ -513,4 +516,7 @@ body{
     text-decoration-line: underline;
     color: #333333;
 
+}
+.horizontal_line-title{
+    margin: -20px 0 20px;
 }
