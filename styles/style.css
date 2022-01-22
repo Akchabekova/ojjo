@@ -144,7 +144,7 @@ body{
 }
 .portfolio_link{
     border: 1px solid black;
-    padding: 11px 25px;
+    padding: 11px 33px;
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
@@ -153,11 +153,29 @@ body{
     color: #333333;
     margin: 0 10px 0 15px;
     cursor: pointer;
+    position: relative;
+    display: inline-block;
+
+
+
+}
+.portfolio_link:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -5px;
+    bottom: -5px;
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+
+
 
 }
 .portfolio_link:hover{
     background-color: #333333;
     color: white;
+
 }
 .row{
     display: flex;
@@ -431,7 +449,6 @@ body{
     text-transform: uppercase;
     color: #333333;
     margin-bottom: 40px;
-    text-align: center;
 }
 .footer_link{
     font-size: 14px;
@@ -457,17 +474,43 @@ body{
     margin: 10px 10px;
 }
 .footer_email{
-    margin: 10px 10px;
+    margin: 8px 10px;
 }
 
-.footer_social_desc{
-    margin-bottom: 15px;
 
-}
 .social_item{
     margin-right: 22px;
 
 }
-.social_item:hover{
+.footer_social_desc{
+    font-size: 16px;
+    line-height: 23px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.footer_email_img{
+    margin-left: 2px;
+}
+.horizontal_line-footer{
+    margin: 50px 0 20px;
+
+}
+.footer_bottom_menu{
+    display: flex;
+   justify-content: space-between;
+}
+.footer_bottom_link{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.footer_bottom_link-figma{
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #333333;
 
 }
